@@ -8,7 +8,7 @@ choice = input("Enter 't' for text or 'f' for file: ")
 if choice == "t":
   text = input("Enter text to check for palindrome: ")
   check_palindrome(text)
-elif choice == "f"
+elif choice == "f":
   try:
     file = input("Enter filepath for palindrome checker: ")
     text = open(file, "r").read()
